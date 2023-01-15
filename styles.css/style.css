@@ -150,6 +150,7 @@ color: #727272;
 }
 
 /* Features you will love & enjoy Section */
+
 .border-left-text{
     border-left: 5px solid #FF900E;
     padding-left: 30px;
@@ -345,4 +346,20 @@ and (max-width : 688px) {
         .menu li a, .menu li span {
             padding: 0em 0em;
         }
+}
+
+/* Tablets */
+@media only screen
+and (min-width : 689px)
+and (max-width : 1024px) {
+
+    .title-header{
+        font-size: 35px;
+    }
+    .banner-title{
+        font-size: 40px;
+    }
+    .logos img {
+        width: 100px;
+    }
 }
