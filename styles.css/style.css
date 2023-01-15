@@ -326,6 +326,10 @@ and (max-width : 688px) {
         grid-gap: 50px;
         grid-template-columns: repeat(1, 1fr);
     }
+    .logos img {  
+        width: 150px;
+        margin: auto;
+    }
     .top-header {
      
         display: block;
